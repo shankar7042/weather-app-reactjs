@@ -1,0 +1,45 @@
+.bottom-conatiner {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #6abeca 0%, rgba(58, 98, 104, 0.57) 100%),
+    url('../../resources/images/sunny-weather.jpeg') center no-repeat;
+    background-size: cover;
+
+    .inner-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.forcast-container {
+
+    width: 8em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .image {
+        width: 2em;
+        height: 2em;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .muted-text {
+        font-size: 12px;
+        columns: #ffffff;
+    }
+}
